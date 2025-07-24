@@ -64,7 +64,7 @@ async function loadChart(difficulty) {
 // --- ゲーム開始 ---
 async function startGame() {
     // 音楽と譜面を読み込む
-    const audioLoaded = await loadAudio('/audio/your_song.mp3'); // your_song.mp3 を適切なファイル名に
+    const audioLoaded = await loadAudio('/audio/11.ogg'); // your_song.mp3 を適切なファイル名に
     const chartLoaded = await loadChart('normal'); // 'normal' 難易度を読み込む
 
     if (!audioLoaded || !chartLoaded) {
